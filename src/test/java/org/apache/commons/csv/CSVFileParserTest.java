@@ -47,7 +47,7 @@ import org.junit.runners.Parameterized.Parameters;
  */
 @RunWith(Parameterized.class)
 public class CSVFileParserTest {
-/*
+
     private static final File BASE = new File("src/test/resources/CSVFileParser");
 
     private final BufferedReader testData;
@@ -174,5 +174,5 @@ public class CSVFileParserTest {
         }
         parser.close();
     }
-    */
+    
 }
