@@ -49,7 +49,7 @@ public class CSVFormatTest {
         assertFalse(right.equals(left));
         assertFalse(left.equals(right));
     }
-
+/*
     private static CSVFormat copy(final CSVFormat format) {
         return format.withDelimiter(format.getDelimiter());
     }
@@ -215,7 +215,7 @@ public class CSVFormatTest {
 
         assertNotEquals(right, left);
     }
-
+*/
     @Test
     public void testEqualsSkipHeaderRecord() {
         final CSVFormat right = CSVFormat.newFormat('\'')
