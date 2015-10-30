@@ -329,7 +329,7 @@ public class CSVFormatTest {
         assertEquals("trim", CSVFormat.DEFAULT.getIgnoreSurroundingSpaces(), format.getIgnoreSurroundingSpaces());
         assertEquals("empty lines", CSVFormat.DEFAULT.getIgnoreEmptyLines(), format.getIgnoreEmptyLines());
     }
-*/  
+
     @Test
     public void testWithCommentStart() throws Exception {
         final CSVFormat formatWithCommentStart = CSVFormat.DEFAULT.withCommentMarker('#');
@@ -454,4 +454,5 @@ public class CSVFormatTest {
         final CSVFormat formatWithRecordSeparator = CSVFormat.DEFAULT.withRecordSeparator(CRLF);
         assertEquals(CRLF, formatWithRecordSeparator.getRecordSeparator());
     }
+    */
 }
